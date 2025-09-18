@@ -29,3 +29,25 @@ searchBtn.onclick = () => {
 
   alert(Searching rides from from to{to} on date for{passengerCount} passenger(s).);
 };
+const routes = [
+  {
+    from: "Pileru Railway Station",
+    to: "Bengaluru",
+    date: "Today",
+    passengers: 1,
+  },
+  {
+    from: "Bengaluru",
+    to: "Pileru Railway Station",
+    date: "Tomorrow",
+    passengers: 1,
+  },
+  {
+    from: "Bengaluru, Karnataka",
+    to: "Bodumalluvaripalle, Andhra Pradesh",
+    date: "Tomorrow",
+    passengers: 1,
+  },
+];
+
+
